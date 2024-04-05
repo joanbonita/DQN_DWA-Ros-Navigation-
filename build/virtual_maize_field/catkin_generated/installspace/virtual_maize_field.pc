@@ -1,0 +1,8 @@
+prefix=/home/salma/workspace/install
+
+Name: virtual_maize_field
+Description: Description of virtual_maize_field
+Version: 5.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: rospy roslaunch
