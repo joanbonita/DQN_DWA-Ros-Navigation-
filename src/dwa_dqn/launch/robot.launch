@@ -1,29 +1,36 @@
 <?xml version='1.0'?>
 <launch>
+  <arg name="use_sim_time" default="true" />
+  <arg name="gui" default="true" />
+  <arg name="headless" default="false" />
+  <arg name="world_name" default="$(find dwa_dqn)/worlds/test_environment_01.world" />
+
   <arg name="front_laser" default="false" />
   <arg name="default_config" value="front_laser" if="$(arg front_laser)" />
   <arg name="default_config" value="base" unless="$(arg front_laser)" />
+  
   <arg name="config" default="$(arg default_config)" />
 
-  <arg name="world_name" default="$(find dwa_dqn)/worlds/test_environment_01.world" />
+  <!-- Optionally enable teleop for the simulation -->
+  <arg name="joystick" default="true" />
 
-  <!-- Gazebo world-->
+  <!-- Launch Gazebo with the specified world -->
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-      <arg name="world_name" value="$(arg world_name)" />
-      <arg name="paused" value="true" />
-      <arg name="use_sim_time" value="true" />
-      <arg name="gui" value="true" />
-      <arg name="headless" value="false" />
-      <arg name="debug" value="false" />
+    <arg name="debug" value="0" />
+    <arg name="gui" value="$(arg gui)" />
+    <arg name="use_sim_time" value="$(arg use_sim_time)" />
+    <arg name="headless" value="$(arg headless)" />
+    <arg name="world_name" value="$(arg world_name)" />
   </include>
 
-  <!-- Spawn the jackal_gazebo robot -->
+  <!-- Spawn Jackal -->
   <include file="$(find jackal_gazebo)/launch/spawn_jackal.launch">
-    <arg name="x" value="4.986235" />
-    <arg name="y" value="-8.578372" />
-    <arg name="z" value="0.093517" />
-    <arg name="yaw" value="1.857332" />
+    <arg name="x" value="0" />
+    <arg name="y" value="0" />
+    <arg name="z" value="1.0" />
+    <arg name="yaw" value="0" />
     <arg name="config" value="$(arg config)" />
+    <arg name="joystick" value="$(arg joystick)" />
   </include>
-
 </launch>
+

@@ -1,2 +1,2 @@
-dwa_dqn:virtual_maize_field
+dwa_dqn:navigation_pub
 -DCATKIN_DEVEL_PREFIX=/home/salma/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/salma/workspace/install -G Unix Makefiles

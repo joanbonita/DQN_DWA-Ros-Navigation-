@@ -6,4 +6,4 @@
 # testing this directory and lists subdirectories to be tested as well.
 subdirs("gtest")
 subdirs("dwa_dqn")
-subdirs("virtual_maize_field")
+subdirs("navigation_pub")

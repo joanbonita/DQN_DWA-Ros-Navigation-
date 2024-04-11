@@ -1,0 +1,8 @@
+prefix=/home/salma/workspace/devel
+
+Name: navigation_pub
+Description: Description of navigation_pub
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

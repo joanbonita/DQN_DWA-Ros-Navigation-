@@ -132,7 +132,7 @@ if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/salma/workspace/build/gtest/cmake_install.cmake")
   include("/home/salma/workspace/build/dwa_dqn/cmake_install.cmake")
-  include("/home/salma/workspace/build/virtual_maize_field/cmake_install.cmake")
+  include("/home/salma/workspace/build/navigation_pub/cmake_install.cmake")
 
 endif()
 
