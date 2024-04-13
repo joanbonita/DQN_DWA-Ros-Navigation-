@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salma/workspace/src
+CMAKE_SOURCE_DIR = /home/salma/DQN_DWA-Ros-Navigation-/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salma/workspace/build
+CMAKE_BINARY_DIR = /home/salma/DQN_DWA-Ros-Navigation-/build
 
 # Utility rule file for tf2_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ navigation_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/build: tf2_msgs_gene
 .PHONY : navigation_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/build
 
 navigation_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean:
-	cd /home/salma/workspace/build/navigation_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf2_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : navigation_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/clean
 
 navigation_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend:
-	cd /home/salma/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salma/workspace/src /home/salma/workspace/src/navigation_pub /home/salma/workspace/build /home/salma/workspace/build/navigation_pub /home/salma/workspace/build/navigation_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/salma/DQN_DWA-Ros-Navigation-/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salma/DQN_DWA-Ros-Navigation-/src /home/salma/DQN_DWA-Ros-Navigation-/src/navigation_pub /home/salma/DQN_DWA-Ros-Navigation-/build /home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub /home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation_pub/CMakeFiles/tf2_msgs_generate_messages_py.dir/depend
 

@@ -7,4 +7,4 @@
 # new environment variables
 
 # modified environment variables
-export PWD='/home/salma/workspace/build'
+export PWD='/home/salma/DQN_DWA-Ros-Navigation-/build'

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salma/workspace/src
+CMAKE_SOURCE_DIR = /home/salma/DQN_DWA-Ros-Navigation-/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salma/workspace/build
+CMAKE_BINARY_DIR = /home/salma/DQN_DWA-Ros-Navigation-/build
 
 # Utility rule file for std_msgs_generate_messages_nodejs.
 
@@ -63,10 +63,10 @@ dwa_dqn/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build: std_msgs_generat
 .PHONY : dwa_dqn/CMakeFiles/std_msgs_generate_messages_nodejs.dir/build
 
 dwa_dqn/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean:
-	cd /home/salma/workspace/build/dwa_dqn && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
+	cd /home/salma/DQN_DWA-Ros-Navigation-/build/dwa_dqn && $(CMAKE_COMMAND) -P CMakeFiles/std_msgs_generate_messages_nodejs.dir/cmake_clean.cmake
 .PHONY : dwa_dqn/CMakeFiles/std_msgs_generate_messages_nodejs.dir/clean
 
 dwa_dqn/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend:
-	cd /home/salma/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salma/workspace/src /home/salma/workspace/src/dwa_dqn /home/salma/workspace/build /home/salma/workspace/build/dwa_dqn /home/salma/workspace/build/dwa_dqn/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/salma/DQN_DWA-Ros-Navigation-/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salma/DQN_DWA-Ros-Navigation-/src /home/salma/DQN_DWA-Ros-Navigation-/src/dwa_dqn /home/salma/DQN_DWA-Ros-Navigation-/build /home/salma/DQN_DWA-Ros-Navigation-/build/dwa_dqn /home/salma/DQN_DWA-Ros-Navigation-/build/dwa_dqn/CMakeFiles/std_msgs_generate_messages_nodejs.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : dwa_dqn/CMakeFiles/std_msgs_generate_messages_nodejs.dir/depend
 

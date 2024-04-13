@@ -1,2 +1,2 @@
-dwa_dqn:navigation_pub
--DCATKIN_DEVEL_PREFIX=/home/salma/workspace/devel -DCMAKE_INSTALL_PREFIX=/home/salma/workspace/install -G Unix Makefiles
+dwa_dqn:openai_ros/openai_ros
+-DCATKIN_DEVEL_PREFIX=/home/salma/DQN_DWA-Ros-Navigation-/devel -DCMAKE_INSTALL_PREFIX=/home/salma/DQN_DWA-Ros-Navigation-/install -G Unix Makefiles

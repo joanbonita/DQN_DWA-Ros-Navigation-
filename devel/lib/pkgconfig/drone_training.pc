@@ -1,0 +1,8 @@
+prefix=/home/salma/DQN_DWA-Ros-Navigation-/devel
+
+Name: drone_training
+Description: Description of drone_training
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

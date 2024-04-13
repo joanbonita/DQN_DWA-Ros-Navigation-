@@ -1,0 +1,7 @@
+set(ros_gazebo_gym_SETUP_PY_SETUP_MODULE "setuptools")
+set(ros_gazebo_gym_SETUP_PY_VERSION "2.0.1")
+set(ros_gazebo_gym_SETUP_PY_SCRIPTS "")
+set(ros_gazebo_gym_SETUP_PY_PACKAGES "ros_gazebo_gym")
+set(ros_gazebo_gym_SETUP_PY_PACKAGE_DIRS "src/ros_gazebo_gym")
+set(ros_gazebo_gym_SETUP_PY_MODULES "")
+set(ros_gazebo_gym_SETUP_PY_MODULE_DIRS "")

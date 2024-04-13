@@ -1,8 +1,8 @@
-# Install script for directory: /home/salma/workspace/src/dwa_dqn
+# Install script for directory: /home/salma/DQN_DWA-Ros-Navigation-/src/dwa_dqn
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/salma/workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/salma/DQN_DWA-Ros-Navigation-/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/salma/workspace/build/dwa_dqn/catkin_generated/installspace/dwa_dqn.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/salma/DQN_DWA-Ros-Navigation-/build/dwa_dqn/catkin_generated/installspace/dwa_dqn.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwa_dqn/cmake" TYPE FILE FILES
-    "/home/salma/workspace/build/dwa_dqn/catkin_generated/installspace/dwa_dqnConfig.cmake"
-    "/home/salma/workspace/build/dwa_dqn/catkin_generated/installspace/dwa_dqnConfig-version.cmake"
+    "/home/salma/DQN_DWA-Ros-Navigation-/build/dwa_dqn/catkin_generated/installspace/dwa_dqnConfig.cmake"
+    "/home/salma/DQN_DWA-Ros-Navigation-/build/dwa_dqn/catkin_generated/installspace/dwa_dqnConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwa_dqn" TYPE FILE FILES "/home/salma/workspace/src/dwa_dqn/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/dwa_dqn" TYPE FILE FILES "/home/salma/DQN_DWA-Ros-Navigation-/src/dwa_dqn/package.xml")
 endif()
 

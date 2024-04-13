@@ -1,0 +1,8 @@
+prefix=/home/salma/DQN_DWA-Ros-Navigation-/devel
+
+Name: turt_q_learn
+Description: Description of turt_q_learn
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/salma/workspace/src
+CMAKE_SOURCE_DIR = /home/salma/DQN_DWA-Ros-Navigation-/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/salma/workspace/build
+CMAKE_BINARY_DIR = /home/salma/DQN_DWA-Ros-Navigation-/build
 
 # Utility rule file for tf_generate_messages_lisp.
 
@@ -63,10 +63,10 @@ navigation_pub/CMakeFiles/tf_generate_messages_lisp.dir/build: tf_generate_messa
 .PHONY : navigation_pub/CMakeFiles/tf_generate_messages_lisp.dir/build
 
 navigation_pub/CMakeFiles/tf_generate_messages_lisp.dir/clean:
-	cd /home/salma/workspace/build/navigation_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake
+	cd /home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub && $(CMAKE_COMMAND) -P CMakeFiles/tf_generate_messages_lisp.dir/cmake_clean.cmake
 .PHONY : navigation_pub/CMakeFiles/tf_generate_messages_lisp.dir/clean
 
 navigation_pub/CMakeFiles/tf_generate_messages_lisp.dir/depend:
-	cd /home/salma/workspace/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salma/workspace/src /home/salma/workspace/src/navigation_pub /home/salma/workspace/build /home/salma/workspace/build/navigation_pub /home/salma/workspace/build/navigation_pub/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/salma/DQN_DWA-Ros-Navigation-/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/salma/DQN_DWA-Ros-Navigation-/src /home/salma/DQN_DWA-Ros-Navigation-/src/navigation_pub /home/salma/DQN_DWA-Ros-Navigation-/build /home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub /home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub/CMakeFiles/tf_generate_messages_lisp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : navigation_pub/CMakeFiles/tf_generate_messages_lisp.dir/depend
 

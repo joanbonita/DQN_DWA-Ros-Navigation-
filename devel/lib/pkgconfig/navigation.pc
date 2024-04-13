@@ -1,4 +1,4 @@
-prefix=/home/salma/workspace/devel
+prefix=/home/salma/DQN_DWA-Ros-Navigation-/devel
 
 Name: navigation
 Description: Description of navigation

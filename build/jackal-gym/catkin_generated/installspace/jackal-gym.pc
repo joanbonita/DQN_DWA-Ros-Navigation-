@@ -1,0 +1,8 @@
+prefix=/home/salma/DQN_DWA-Ros-Navigation-/install
+
+Name: jackal-gym
+Description: Description of jackal-gym
+Version: 0.0.1
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

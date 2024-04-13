@@ -117,7 +117,7 @@
       <heading_deg>0</heading_deg>
     </spherical_coordinates>
 
-    <include>
+    <!-- <include>
       <uri>model://pine_tree</uri>
       <pose>1.0 4 0 0 0 0</pose>
       <name>pine_tree_01</name>
@@ -136,7 +136,7 @@
       <pose>-3.786545 -5.776154 0 0 0 0</pose>
       <name>pine_tree_04</name>
       <static>true</static>
-    </include>
+    </include> -->
 
     <include>
       <uri>model://my_ground_plane</uri>

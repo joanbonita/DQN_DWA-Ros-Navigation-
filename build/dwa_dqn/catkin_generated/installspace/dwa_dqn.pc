@@ -1,4 +1,4 @@
-prefix=/home/salma/workspace/install
+prefix=/home/salma/DQN_DWA-Ros-Navigation-/install
 
 Name: dwa_dqn
 Description: Description of dwa_dqn

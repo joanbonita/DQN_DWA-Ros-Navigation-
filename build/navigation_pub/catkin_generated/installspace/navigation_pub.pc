@@ -1,4 +1,4 @@
-prefix=/home/salma/workspace/install
+prefix=/home/salma/DQN_DWA-Ros-Navigation-/install
 
 Name: navigation_pub
 Description: Description of navigation_pub

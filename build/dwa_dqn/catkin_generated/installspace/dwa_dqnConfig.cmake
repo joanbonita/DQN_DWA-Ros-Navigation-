@@ -67,14 +67,14 @@ set(dwa_dqn_CONFIG_INCLUDED TRUE)
 
 # set variables for source/devel/install prefixes
 if("FALSE" STREQUAL "TRUE")
-  set(dwa_dqn_SOURCE_PREFIX /home/salma/workspace/src/dwa_dqn)
-  set(dwa_dqn_DEVEL_PREFIX /home/salma/workspace/devel)
+  set(dwa_dqn_SOURCE_PREFIX /home/salma/DQN_DWA-Ros-Navigation-/src/dwa_dqn)
+  set(dwa_dqn_DEVEL_PREFIX /home/salma/DQN_DWA-Ros-Navigation-/devel)
   set(dwa_dqn_INSTALL_PREFIX "")
   set(dwa_dqn_PREFIX ${dwa_dqn_DEVEL_PREFIX})
 else()
   set(dwa_dqn_SOURCE_PREFIX "")
   set(dwa_dqn_DEVEL_PREFIX "")
-  set(dwa_dqn_INSTALL_PREFIX /home/salma/workspace/install)
+  set(dwa_dqn_INSTALL_PREFIX /home/salma/DQN_DWA-Ros-Navigation-/install)
   set(dwa_dqn_PREFIX ${dwa_dqn_INSTALL_PREFIX})
 endif()
 
@@ -154,7 +154,7 @@ foreach(library ${libraries})
     set(lib_path "")
     set(lib "${library}-NOTFOUND")
     # since the path where the library is found is returned we have to iterate over the paths manually
-    foreach(path /home/salma/workspace/install/lib;/home/salma/workspace/devel/lib;/home/salma/catkin_ws/devel/lib;/opt/ros/noetic/lib)
+    foreach(path /home/salma/DQN_DWA-Ros-Navigation-/install/lib;/home/salma/DQN_DWA-Ros-Navigation-/devel/lib;/opt/ros/noetic/lib)
       find_library(lib ${library}
         PATHS ${path}
         NO_DEFAULT_PATH NO_CMAKE_FIND_ROOT_PATH)

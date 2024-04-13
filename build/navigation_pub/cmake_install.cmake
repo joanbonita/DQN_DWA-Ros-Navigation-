@@ -1,8 +1,8 @@
-# Install script for directory: /home/salma/workspace/src/navigation_pub
+# Install script for directory: /home/salma/DQN_DWA-Ros-Navigation-/src/navigation_pub
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/salma/workspace/install")
+  set(CMAKE_INSTALL_PREFIX "/home/salma/DQN_DWA-Ros-Navigation-/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -38,17 +38,17 @@ if(NOT DEFINED CMAKE_CROSSCOMPILING)
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/salma/workspace/build/navigation_pub/catkin_generated/installspace/navigation_pub.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub/catkin_generated/installspace/navigation_pub.pc")
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_pub/cmake" TYPE FILE FILES
-    "/home/salma/workspace/build/navigation_pub/catkin_generated/installspace/navigation_pubConfig.cmake"
-    "/home/salma/workspace/build/navigation_pub/catkin_generated/installspace/navigation_pubConfig-version.cmake"
+    "/home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub/catkin_generated/installspace/navigation_pubConfig.cmake"
+    "/home/salma/DQN_DWA-Ros-Navigation-/build/navigation_pub/catkin_generated/installspace/navigation_pubConfig-version.cmake"
     )
 endif()
 
 if("x${CMAKE_INSTALL_COMPONENT}x" STREQUAL "xUnspecifiedx" OR NOT CMAKE_INSTALL_COMPONENT)
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_pub" TYPE FILE FILES "/home/salma/workspace/src/navigation_pub/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/navigation_pub" TYPE FILE FILES "/home/salma/DQN_DWA-Ros-Navigation-/src/navigation_pub/package.xml")
 endif()
 
