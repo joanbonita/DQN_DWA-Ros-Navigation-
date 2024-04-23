@@ -1,0 +1,4 @@
+<?xml version="1.0"?>
+<launch>
+    <node pkg="dwa_dqn" type="dwa_nav.py" name="dwa_nav" output="screen"/>
+</launch>

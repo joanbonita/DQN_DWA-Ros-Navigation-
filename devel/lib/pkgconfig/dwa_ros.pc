@@ -1,0 +1,8 @@
+prefix=/home/salma/DQN_DWA-Ros-Navigation-/devel
+
+Name: dwa_ros
+Description: Description of dwa_ros
+Version: 0.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,2 +1,2 @@
-dwa_dqn:openai_ros/openai_ros
+DWA_Python_ROS:dwa_dqn
 -DCATKIN_DEVEL_PREFIX=/home/salma/DQN_DWA-Ros-Navigation-/devel -DCMAKE_INSTALL_PREFIX=/home/salma/DQN_DWA-Ros-Navigation-/install -G Unix Makefiles

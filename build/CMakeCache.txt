@@ -451,6 +451,12 @@ dwa_dqn_BINARY_DIR:STATIC=/home/salma/DQN_DWA-Ros-Navigation-/build/dwa_dqn
 //Value Computed by CMake
 dwa_dqn_SOURCE_DIR:STATIC=/home/salma/DQN_DWA-Ros-Navigation-/src/dwa_dqn
 
+//Value Computed by CMake
+dwa_ros_BINARY_DIR:STATIC=/home/salma/DQN_DWA-Ros-Navigation-/build/DWA_Python_ROS
+
+//Value Computed by CMake
+dwa_ros_SOURCE_DIR:STATIC=/home/salma/DQN_DWA-Ros-Navigation-/src/DWA_Python_ROS
+
 //The directory containing a CMake configuration file for dynamic_reconfigure.
 dynamic_reconfigure_DIR:PATH=/opt/ros/noetic/share/dynamic_reconfigure/cmake
 
